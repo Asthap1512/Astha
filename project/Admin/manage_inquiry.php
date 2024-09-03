@@ -7,13 +7,13 @@ include_once('header.php');
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            Manage Product
-            <small>Manage Product</small>
+            Manage Inquiry
+            <small>Manage Inquiry</small>
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li class="active">Manage Product</li>
+            <li><a href="#">Inquiry</a></li>
+            <li class="active">Manage Inquiry</li>
           </ol>
         </section>
 
@@ -29,16 +29,20 @@ include_once('header.php');
                     <thead>
                       <tr>
                         <th>Id</th>
-                        <th>Product Name</th>
-                        <th>Image</th>
+                        <th> Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Messages</th>
                         <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>1</td>
-                        <td>Software</td>
-                        <td><img src="" /></td>
+                        <td>Dhruv</td>
+                        <td>pdh5796@gmail.com</td>
+                        <td>9574512698</td>
+                        <td>tell about your inquiry</td>
                         <td>
 							<a href="" class="btn btn-danger">Delete</a>
 							<a href="" class="btn btn-primary">Edit</a>

@@ -17,11 +17,13 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Kraft paper</a>
-                    <a class="btn btn-link" href="">stiching Wire</a>
-                    <a class="btn btn-link" href="">Gum powder</a>
-                    <a class="btn btn-link" href="">Stiching part</a>
-                    <a class="btn btn-link" href="">Duplex Board</a>
+                    <a class="btn btn-link" href="">Corrugated Box</a>
+                    <a class="btn btn-link" href="">Paper Beg</a>
+                    <a class="btn btn-link" href="">corrugation Roll</a>
+                    <a class="btn btn-link" href="">Straping Patti</a>
+                    <a class="btn btn-link" href="">Selotep</a>
+                    <a class="btn btn-link" href="">Strach Film</a>
+                    <a class="btn btn-link" href="">Bubble Roll</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Quick Links</h4>
@@ -29,7 +31,7 @@
                     <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Gallery</a>
+                    <a class="btn btn-link" href="">Product</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>

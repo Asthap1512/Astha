@@ -20,7 +20,7 @@ function active($currect_page){
 
 <head>
     <meta charset="utf-8">
-    <title>PSQUARE Enterprise - kraft paper</title>
+    <title>PSQUARE ENTERPRISE - Packaging Material</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -92,10 +92,10 @@ function active($currect_page){
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
 					<a href="index.html">
-                        <img src="img/suleshwari_logo.png"/>
+                        <img src="img/psquare_logo.png"/>
 								</a>
         <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary">PSQUARE Enterprise</h2>
+            <h2 class="m-0 text-primary">PSQUARE ENTERPRISE</h2>
         </a>    
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -107,8 +107,21 @@ function active($currect_page){
              <br>
              <a href="service.php" class="nav-item nav-link <?php active('servic.php')?>">Service</a>
              <br>
-             <a href="Product.php" class="nav-item nav-link <?php active('Product.php')?>">Product</a>
-              <br>            
+             <div class="nav-item dropdown">
+             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+             <div class="dropdown-menu fade-up m-0">
+                        <a href="Corrugated Box.php" class="dropdown-item">Corrugated Box</a>
+                        <a href="Paper Beg.php" class="dropdown-item">Paper Beg</a>
+                        <a href="Corruation Roll.php" class="dropdown-item">Corruation Roll</a>
+                        <a href="Straping Patti.php" class="dropdown-item">Straping Patti</a>
+                        <a href="Selotep.php" class="dropdown-item">Selotep</a>
+                        <a href="Strach Film.php" class="dropdown-item">Strach Film</a>
+                        <a href="Bubble Roll.php" class="dropdown-item">Bubble Roll</a>
+
+                    </div> 
+                    </div>
+             <br> 
+
              <a href="Inquiry us.php" class="nav-link  <?php active('Inquiry us.php')?>">Inquiry us</a>
              <br>
              <a href="contact.php" class="nav-item nav-link <?php active('contact.php')?>">Contact</a>

@@ -44,8 +44,8 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
+                                        <input type="text" class="form-control" id="number" placeholder="number">
+                                        <label for="subject">phone number</label>
                                     </div>
                                 </div>
                                 <div class="col-12">

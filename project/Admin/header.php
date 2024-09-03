@@ -279,7 +279,7 @@
                 </ul>
               </li>
             </ul>
-          </div>
+            </div>
         </nav>
       </header>
       <!-- Left side column. contains the logo and sidebar -->
@@ -308,15 +308,7 @@
                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> 
               </a>
             </li>
-			<li class="treeview">
-              <a href="#">
-                <i class="fa fa-th"></i> <span>Categories</span> <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="add_categories.php"><i class="fa fa-circle-o"></i> Add Categories</a></li>
-                <li><a href="manage_categories.php"><i class="fa fa-circle-o"></i> Manage Categories</a></li>
-              </ul>
-            </li>
+			
 			
 			<li class="treeview">
               <a href="#">
@@ -328,9 +320,37 @@
               </ul>
             </li>
            
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-th"></i> <span>Inquiry</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="add_inquiry.php"><i class="fa fa-circle-o"></i> Add Inquiry</a></li>
+                <li><a href="manage_inquiry.php"><i class="fa fa-circle-o"></i> Manage Inquiry</a></li>
+              </ul>
+            </li>
+            
             <li>
               <a href="manage_inquiry.php">
-                <i class="fa fa-th"></i> <span>Manage Inquiry</span> 
+                <i class="fa fa-th"></i> <span>Manage Service</span> 
+              </a>
+            </li>
+
+            <li>
+              <a href="manage_inquiry.php">
+                <i class="fa fa-th"></i> <span>Manage Team Member</span> 
+              </a>
+            </li>
+
+            <li>
+              <a href="manage_inquiry.php">
+                <i class="fa fa-th"></i> <span>View Contact us</span> 
+              </a>
+            </li>
+
+            <li>
+              <a href="manage_inquiry.php">
+                <i class="fa fa-th"></i> <span>Manage Feedback</span> 
               </a>
             </li>
            
