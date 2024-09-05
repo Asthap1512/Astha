@@ -1,12 +1,29 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<form action="" method="post">
+	<p>physics: <input type="number" name="num1" required /></p>
+	<p>chemistry: <input type="number" name="num2" required /></p>
+	<p>biology: <input type="number" name="num3" required /></p>
+	<p>mathematics: <input type="number" name="num4" required /></p>
+	<p>computer: <input type="number" name="num5" required /></p>
+	
 
+	<button type="submit">submit</button>
+</form>
+</body>
+</html>
 <?php
 
-$physics = 85;  
-$chemistry = 90; 
-$biology = 78;  
-$mathematics = 88; 
-$computer = 92; 
+if($_SERVER["REQUEST_METHOD"]=="POST"){
 
+	$physics=$_POST['num1'];
+	$chemistry=$_POST['num1'];
+    $biology=$_POST['num1'];
+    $mathematics=$_POST['num1'];
+    $computer=$_POST['num1'];
 
 $totalMarks = $physics + $chemistry + $biology + $mathematics + $computer;
 $percentage = ($totalMarks / 500) * 100;
@@ -27,15 +44,12 @@ if ($percentage >= 90) {
 }
 
 
-echo "Marks Obtained:\n";
-echo "Physics: $physics\n";
-echo "Chemistry: $chemistry\n";
-echo "Biology: $biology\n";
-echo "Mathematics: $mathematics\n";
-echo "Computer: $computer\n";
-echo "Total Marks: $totalMarks\n";
-echo "Percentage: " . number_format($percentage, 2) . "%\n";
-echo "Grade: $grade\n\n";
+echo "<h2>Results:</h2>";
+echo "total Marks:".$totalMarks."<br>";
+echo "percentagr:".$percentage."%<br>";
+echo "grade:".$grade."<br>";
+
+}
 
 
 $dayIndex = 5; 
