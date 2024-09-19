@@ -67,10 +67,10 @@ function active($currect_page){
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
                     <small>29 Gopal charan, Odhav, Gujarat</small>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center py-3">
+                <a class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
-                    <small>Mon - sat : 09.00 AM - 07.00 PM</small>
-                </div>
+                    <a href="https://IndiaMART.in/YERdXgnQ">https://IndiaMART.in/YERdXgnQ</a>
+                
             </div>
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
@@ -101,30 +101,32 @@ function active($currect_page){
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-             <a href="index.php" class="nav-item nav-link <?php active('index.php')?>">Home</a>
+             <a href="index" class="nav-item nav-link <?php active('index')?>">Home</a>
              <br>
-             <a href="about.php" class="nav-item nav-link <?php active('about.php')?>">About</a>
+             <a href="about" class="nav-item nav-link <?php active('about')?>">About</a>
              <br>
-             <a href="service.php" class="nav-item nav-link <?php active('servic.php')?>">Service</a>
+             <a href="service" class="nav-item nav-link <?php active('servic')?>">Service</a>
              <br>
              <div class="nav-item dropdown">
-             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown <?php active('Product')?>">Product</a>
              <div class="dropdown-menu fade-up m-0">
-                        <a href="Corrugated Box.php" class="dropdown-item">Corrugated Box</a>
-                        <a href="Paper Beg.php" class="dropdown-item">Paper Beg</a>
-                        <a href="Corruation Roll.php" class="dropdown-item">Corruation Roll</a>
-                        <a href="Straping Patti.php" class="dropdown-item">Straping Patti</a>
-                        <a href="Selotep.php" class="dropdown-item">Selotep</a>
-                        <a href="Strach Film.php" class="dropdown-item">Strach Film</a>
-                        <a href="Bubble Roll.php" class="dropdown-item">Bubble Roll</a>
+                        <a href="Kraft paper" class="dropdown-item <?php active('Kraft paper')?>">Kraft paper</a> 
+                        <a href="Corrugated Box" class="dropdown-item <?php active('Corrugated Box')?>">Corrugated Box</a>
+                        <a href="Paper Beg" class="dropdown-item <?php active('Paper Beg')?>">Paper Beg</a>
+                        <a href="Corruation Roll" class="dropdown-item <?php active('Corruation Roll')?>">Corruation Roll</a>
+                        <a href="A4 paper" class="dropdown-item <?php active('A4 paper')?>">A4 paper</a>
+                        <a href="Straping Patti" class="dropdown-item <?php active('Straping Patti')?>">Straping Patti</a>
+                        <a href="Selotep" class="dropdown-item <?php active('Selotep')?>">Selotep</a>
+                        <a href="Strach Film" class="dropdown-item <?php active('Strach Film')?>">Strach Film</a>
+                        <a href="Bubble Roll" class="dropdown-item <?php active('Bubble Roll')?>">Bubble Roll</a>
 
                     </div> 
                     </div>
              <br> 
 
-             <a href="Inquiry us.php" class="nav-link  <?php active('Inquiry us.php')?>">Inquiry us</a>
+             <a href="Inquiry us" class="nav-link  <?php active('Inquiry us')?>">Inquiry us</a>
              <br>
-             <a href="contact.php" class="nav-item nav-link <?php active('contact.php')?>">Contact</a>
+             <a href="contact" class="nav-item nav-link <?php active('contact')?>">Contact</a>
             </div>
             <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"><i class="fa fa-arrow-right ms-3"></i></a>
         </div>

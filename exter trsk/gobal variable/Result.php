@@ -1,64 +1,54 @@
 <html>
 <head>
-<title></title>
+<title>Result</title>
 </head>
 <body>
-<form action="" method="post">
-	<p>Gujarati: <input type="number" name="num1" value="100" required /></p>
-	<p>Hinde: <input type="number" name="num2" value="100" required /></p>
-	<p>English: <input type="number" name="num3" value="100" required /></p>
-	<p>Science: <input type="number" name="num4" value="100" required /></p>
-	<p>Maths: <input type="number" name="num5" value="100" required /></p>
+<form action="" method="POST">
+	<p>Gujarati: <input type="number" name="num1" required /></p>
+	<p>Hinde: <input type="number" name="num2" required /></p>
+	<p>English: <input type="number" name="num3" required /></p>
+	<p>Science: <input type="number" name="num4" required /></p>
+	<p>Maths: <input type="number" name="num5" required /></p>
 	
 
-	<input type="submit"name="sum" value="total"/>
-	<input type="submit"name="Division" value="percentage"/></p>
-	<input type="submit"name="Division" value="grade"/>
+	<button type="submit">submit</button>
+	
 </form>
 </body>
 </html>
 <?php
 
-$Gujarati = 85;
-$hinde = 75; 
-$English = 70; 
-$Science = 80; 
-$Maths = 90; 
-
-if(isset($_REQUEST['total']))
+if($_SERVER["REQUEST_METHOD"]=="POST")
 {
-	$num1=$_REQUEST['num1'];
-	$num2=$_REQUEST['num2'];
-    $num3=$_REQUEST['num3'];
-    $num4=$_REQUEST['num4'];
-    $num5=$_REQUEST['num5'];
-	echo "Your total : ".$total=$num1+$num2+$num3+$num4+$num5;
+
+	$Gujarati=$_POST['num1'];
+	$hinde=$_POST['num2'];
+    $English=$_POST['num3'];
+    $Science=$_POST['num4'];
+    $Maths=$_POST['num5'];
+
+
+$totalMarks = $Gujarati + $hinde + $English + $Science + $Maths;
+$percentage = ($totalMarks / 500) * 100;
+
+if ($percentage >= 90) {
+    $grade = 'A+';
+} elseif ($percentage >= 80) {
+    $grade = 'A';
+} elseif ($percentage >= 70) {
+    $grade = 'B+';
+} elseif ($percentage >= 60) {
+    $grade = 'B';
+} elseif ($percentage >= 50) {
+    $grade = 'C';
+} else {
+    $grade = 'D';
 }
 
-if(isset($_REQUEST['div']))
-{
-	$num1=$_REQUEST['num1'];
-	$num2=$_REQUEST['num2'];
-    $num3=$_REQUEST['num3'];
-    $num4=$_REQUEST['num4'];
-    $num5=$_REQUEST['num5'];
-	echo "Your percentage : ".$ans=$num1/$num2/$num3/$num4/$num5;
-}
-if(isset($_REQUEST['multi']))
-{
-	$num1=$_REQUEST['num1'];
-	$num2=$_REQUEST['num2'];
-    $num3=$_REQUEST['num3'];
-    $num4=$_REQUEST['num4'];
-    $num5=$_REQUEST['num5'];
-	echo "Your Multiplication : ".$ans=$num1*$num2*$num3*$num4*$num5;
-}
+echo "<h2>Results:</h2>";
+echo "total Marks:".$totalMarks."<br>";
+echo "percentagr:".$percentage."%<br>";
+echo "grade:".$grade."<br>";
 
-if(isset($_REQUEST['div']))
-{
-	$num1=$_REQUEST['num1'];
-	$num2=$_REQUEST['num2'];
-	echo "Your Division : ".$ans=$num1/$num2;
 }
-
 ?>

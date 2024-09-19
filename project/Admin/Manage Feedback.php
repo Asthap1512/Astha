@@ -29,8 +29,8 @@ include_once('header.php');
                     <thead>
                       <tr>
                         <th>Id</th>
-                        <th>Product Name</th>
-                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Feedback</th>
                         <th>Action</th>
                       </tr>
                     </thead>
@@ -38,7 +38,7 @@ include_once('header.php');
                       <tr>
                         <td>1</td>
                         <td>Software</td>
-                        <td><img src="" /></td>
+                        <td></td>
                         <td>
 							<a href="" class="btn btn-danger">Delete</a>
 							<a href="" class="btn btn-primary">Edit</a>

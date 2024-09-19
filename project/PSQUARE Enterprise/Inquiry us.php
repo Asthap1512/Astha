@@ -46,7 +46,7 @@
               <label for="pwd">Message:</label>
               <input type="message" class="form-control" id="message" placeholder="Ente message" name="message"  style="background-color:brown ;">
              </div>
-             <button type="button" class="btn btn-danger">Send Message</button>
+             <button type="button" class="btn btn-danger" style="background-color:brown ;">Send Message</button>
              </div>
              </form>
 

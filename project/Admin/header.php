@@ -242,10 +242,7 @@
               </li>
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
-                  <span class="hidden-xs">Alexander Pierce</span>
-                </a>
+                
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
@@ -304,7 +301,7 @@
             <li class="header">MAIN NAVIGATION</li>
             
 			<li>
-              <a href="dashboard.php">
+              <a href="dashboard">
                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> 
               </a>
             </li>
@@ -315,8 +312,8 @@
                 <i class="fa fa-th"></i> <span>Product</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="add_product.php"><i class="fa fa-circle-o"></i> Add Product</a></li>
-                <li><a href="manage_product.php"><i class="fa fa-circle-o"></i> Manage Product</a></li>
+                <li><a href="add_product"><i class="fa fa-circle-o"></i> Add Product</a></li>
+                <li><a href="manage_product"><i class="fa fa-circle-o"></i> Manage Product</a></li>
               </ul>
             </li>
            
@@ -325,31 +322,35 @@
                 <i class="fa fa-th"></i> <span>Inquiry</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="add_inquiry.php"><i class="fa fa-circle-o"></i> Add Inquiry</a></li>
-                <li><a href="manage_inquiry.php"><i class="fa fa-circle-o"></i> Manage Inquiry</a></li>
+                <li><a href="add_inquiry"><i class="fa fa-circle-o"></i> Add Inquiry</a></li>
+                <li><a href="manage_inquiry"><i class="fa fa-circle-o"></i> Manage Inquiry</a></li>
               </ul>
             </li>
             
-            <li>
-              <a href="manage_inquiry.php">
+           <!-- <li>
+              <a href="Manage Service.php">
                 <i class="fa fa-th"></i> <span>Manage Service</span> 
               </a>
-            </li>
+            </li>-->
 
             <li>
-              <a href="manage_inquiry.php">
+              <a href="Manage Team Member">
                 <i class="fa fa-th"></i> <span>Manage Team Member</span> 
               </a>
             </li>
-
             <li>
-              <a href="manage_inquiry.php">
+              <a href="Manage Reliable Brand">
+                <i class="fa fa-th"></i> <span>Manage Reliable Brand</span> 
+              </a>
+            </li>
+            <li>
+              <a href="View Contact us">
                 <i class="fa fa-th"></i> <span>View Contact us</span> 
               </a>
             </li>
 
             <li>
-              <a href="manage_inquiry.php">
+              <a href="Manage Feedback">
                 <i class="fa fa-th"></i> <span>Manage Feedback</span> 
               </a>
             </li>

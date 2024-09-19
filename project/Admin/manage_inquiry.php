@@ -49,6 +49,54 @@ include_once('header.php');
 						</td>
                         
                       </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Dhruv</td>
+                        <td>pdh5796@gmail.com</td>
+                        <td>9574512698</td>
+                        <td>tell about your inquiry</td>
+                        <td>
+							<a href="" class="btn btn-danger">Delete</a>
+							<a href="" class="btn btn-primary">Edit</a>
+						</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Dhruv</td>
+                        <td>pdh5796@gmail.com</td>
+                        <td>9574512698</td>
+                        <td>tell about your inquiry</td>
+                        <td>
+							<a href="" class="btn btn-danger">Delete</a>
+							<a href="" class="btn btn-primary">Edit</a>
+						</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Dhruv</td>
+                        <td>pdh5796@gmail.com</td>
+                        <td>9574512698</td>
+                        <td>tell about your inquiry</td>
+                        <td>
+							<a href="" class="btn btn-danger">Delete</a>
+							<a href="" class="btn btn-primary">Edit</a>
+						</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>Dhruv</td>
+                        <td>pdh5796@gmail.com</td>
+                        <td>9574512698</td>
+                        <td>tell about your inquiry</td>
+                        <td>
+							<a href="" class="btn btn-danger">Delete</a>
+							<a href="" class="btn btn-primary">Edit</a>
+						</td>
+                        
+                      </tr>
                       
                     </tfoot>
                   </table>

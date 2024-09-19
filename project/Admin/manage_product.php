@@ -28,24 +28,30 @@ include_once('header.php');
                   <table id="example2" class="table table-bordered table-hover">
                     <thead>
                       <tr>
-                        <th>Id</th>
-                        <th>Product Name</th>
-                        <th>Image</th>
+                        <th>product_id</th>
+                        <th>productname</th>
+                        <th>image</th>
                         <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
+                      <?php
+                        foreach($prod_arr as $data)
+                        {
+                        ?>
                       <tr>
-                        <td>1</td>
-                        <td>paper beg</td>
-                        <td><img src="img/service-1.jpeg" /></td>
+                        <td><?php echo $data->id?></td>
+                        <td><?php echo $data->paperbeg?></td>
+                        <td><?php echo $data->image?><img src="" /></td>
                         <td>
 							<a href="" class="btn btn-danger">Delete</a>
 							<a href="" class="btn btn-primary">Edit</a>
 						</td>
                         
                       </tr>
-                      
+                      <?php
+                        }
+                        ?>
                     </tfoot>
                   </table>
                 </div><!-- /.box-body -->

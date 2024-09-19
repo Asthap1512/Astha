@@ -28,7 +28,7 @@ include_once('header.php');
                   <table id="example2" class="table table-bordered table-hover">
                     <thead>
                       <tr>
-                        <th>Id</th>
+                        <th>team_id</th>
                         <th>full Name</th>
                         <th>Image</th>
                         <td>Designation</td>
@@ -36,17 +36,24 @@ include_once('header.php');
                       </tr>
                     </thead>
                     <tbody>
+                      <?php
+                       foreach($prod_arr as $data)
+                       {
+                      ?>
                       <tr>
-                        <td>1</td>
-                        <td>Patel Dhruv</td>
-                        <td><img src="img/service-1.jpeg" /></td>
-                        <td>CEO</td>
+                        <td><?php echo $data->team_id?></td>
+                        <td><?php echo $data->fullname?></td>
+                        <td><?php echo $data->image?><img src="" /></td>
+                        <td><?php echo $data->Designation?></td>
                         <td>
 							<a href="" class="btn btn-danger">Delete</a>
 							<a href="" class="btn btn-primary">Edit</a>
 						</td>
                         
                       </tr>
+                      <?php
+                       }
+                      ?>
                       
                     </tfoot>
                   </table>

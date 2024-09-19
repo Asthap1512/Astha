@@ -32,8 +32,8 @@ include_once('header.php');
                         <th>Name</th>
                         <th>Email</th>
                         <th>Phone Number</th>
-                        <td>Messages</td>
-                        <td>Action</td>
+                        <th>Messages</th>
+                        <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
