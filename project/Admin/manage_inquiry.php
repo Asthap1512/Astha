@@ -28,75 +28,34 @@ include_once('header.php');
                   <table id="example2" class="table table-bordered table-hover">
                     <thead>
                       <tr>
-                        <th>Id</th>
-                        <th> Name</th>
-                        <th>Email</th>
-                        <th>Phone Number</th>
-                        <th>Messages</th>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>email</th>
+                        <th>phonenumber</th>
+                        <th>message</th>
                         <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>Dhruv</td>
-                        <td>pdh5796@gmail.com</td>
-                        <td>9574512698</td>
-                        <td>tell about your inquiry</td>
+                    <?php
+                        foreach($inq_arr as $data)
+                        {
+                          ?>
+                    <tr>
+                        <td><?php echo $data->id?></td>
+                        <td><?php echo $data->name?></td>
+                        <td><?php echo $data->email?></td>
+                        <td><?php echo $data->phonenumber?></td>
+                        <td><?php echo $data->message?></td>
                         <td>
 							<a href="" class="btn btn-danger">Delete</a>
 							<a href="" class="btn btn-primary">Edit</a>
 						</td>
                         
                       </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>Dhruv</td>
-                        <td>pdh5796@gmail.com</td>
-                        <td>9574512698</td>
-                        <td>tell about your inquiry</td>
-                        <td>
-							<a href="" class="btn btn-danger">Delete</a>
-							<a href="" class="btn btn-primary">Edit</a>
-						</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>Dhruv</td>
-                        <td>pdh5796@gmail.com</td>
-                        <td>9574512698</td>
-                        <td>tell about your inquiry</td>
-                        <td>
-							<a href="" class="btn btn-danger">Delete</a>
-							<a href="" class="btn btn-primary">Edit</a>
-						</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>Dhruv</td>
-                        <td>pdh5796@gmail.com</td>
-                        <td>9574512698</td>
-                        <td>tell about your inquiry</td>
-                        <td>
-							<a href="" class="btn btn-danger">Delete</a>
-							<a href="" class="btn btn-primary">Edit</a>
-						</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>5</td>
-                        <td>Dhruv</td>
-                        <td>pdh5796@gmail.com</td>
-                        <td>9574512698</td>
-                        <td>tell about your inquiry</td>
-                        <td>
-							<a href="" class="btn btn-danger">Delete</a>
-							<a href="" class="btn btn-primary">Edit</a>
-						</td>
-                        
-                      </tr>
+                        <?php
+                        }
+                        ?>
                       
                     </tfoot>
                   </table>
